@@ -45,7 +45,7 @@
     "jimp": "^0.14.0",
     "lodash.template": "^4.5.0",
     "mime-types": "^2.1.27",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "tar": "^6.0.2",
     "valid-url": "^1.0.9"
   }
