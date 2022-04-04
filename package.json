@@ -9,7 +9,9 @@
     "test": "lerna run test",
     "clean-modules": "lerna clean -y",
     "clean": "lerna run clean",
-    "postinstall": "lerna bootstrap && lerna link"
+    "postinstall": "lerna bootstrap && lerna link",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "twa",
@@ -40,5 +42,8 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
