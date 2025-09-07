@@ -43,5 +43,6 @@
     "minimist": "^1.2.2",
     "semver": "^7.3.2",
     "valid-url": "^1.0.9"
+    "github-pages": "^2.7.0"
   }
 }
